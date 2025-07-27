@@ -5,7 +5,7 @@ const app = express()
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.json({message:'Bienvenidos a la API REST'})
+    res.json({message:'Bienvenidos a la API REST de Nélida Suárez'})
 });
 
 import productsRouter from "./src/routes/products.router.js"
